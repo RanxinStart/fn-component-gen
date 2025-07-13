@@ -1,6 +1,6 @@
 {
   "name": "@stardev/fn-component-gen",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,6 +17,10 @@
   "peerDependencies": {
     "vue": ">=3.2.0"
   },
+  "files": [
+    "dist/",
+    "package.json"
+  ],
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
